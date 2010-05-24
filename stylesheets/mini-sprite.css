@@ -1,0 +1,1051 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  display: block;
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+}
+
+p {
+  color: #333333;
+}
+
+a, a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  overflow: auto;
+  width: 610px;
+}
+
+.about {
+  background-color: #eff6ff;
+  border: 1px solid #d6e9ff;
+  overflow: auto;
+  width: 596px;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+.icons {
+  background-color: #fff7d5;
+  border: 1px solid #fff1b8;
+  overflow: auto;
+  width: 600px;
+}
+
+.action_back {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat 0px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_forward {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -16px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_go {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -32px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_paste {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -48px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_print {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -64px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_refresh {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -80px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_refresh_blue {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -96px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_save {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -112px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.action_stop {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -128px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.application_dreamweaver {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -144px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.application_firefox {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -160px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.application_flash {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -176px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.arrow_down {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -192px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.arrow_left {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -208px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.arrow_right {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -224px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.arrow_up {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -240px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.box {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -256px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.calendar {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -272px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.comment {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -288px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.comment_blue {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -304px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.comment_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -320px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.comment_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -336px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.comment_yellow {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -352px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.copy {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -368px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.cut {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -384px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.date {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -400px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.date_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -416px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.date_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -432px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.file_acrobat {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -448px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.file_font {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -464px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.file_font_truetype {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -480px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.flag_blue {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -496px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.flag_green {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -512px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.flag_orange {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -528px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.flag_red {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -544px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.flag_white {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -560px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -576px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -592px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder_images {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -608px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder_lock {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -624px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -640px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.folder_page {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -656px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_accept {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -672px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_airmail {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -688px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_alert {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -704px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_attachment {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -720px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_clock {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -736px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_component {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -752px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_download {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -768px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_email {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -784px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_extension {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -800px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_favourites {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -816px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_get_world {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -832px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_history {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -848px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_home {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -864px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_info {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -880px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_key {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -896px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_link {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -912px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_mail {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -928px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_monitor_mac {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -944px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_monitor_pc {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -960px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_network {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -976px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_package {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -992px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_package_get {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1008px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_package_open {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1024px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_padlock {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1040px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_security {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1056px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_settings {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1072px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_user {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1088px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_wand {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1104px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_world {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1120px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.icon_world_dynamic {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1136px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.image {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1152px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.image_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1168px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.interface_browser {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1184px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.interface_dialog {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1200px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.interface_installer {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1216px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_comments {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1232px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_components {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1248px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_errors {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1264px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_extensions {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1280px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_images {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1296px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_keys {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1312px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_links {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1328px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_packages {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1344px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_security {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1360px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_settings {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1376px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_users {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1392px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.list_world {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1408px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.note {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1424px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.note_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1440px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.note_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1456px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1472px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_alert {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1488px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_attachment {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1504px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_bookmark {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1520px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_boy {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1536px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_code {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1552px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_colors {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1568px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_component {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1584px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_cross {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1600px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1616px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_deny {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1632px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_down {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1648px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_dynamic {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1664px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_edit {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1680px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_extension {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1696px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_favourites {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1712px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_find {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1728px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_flash {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1744px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_girl {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1760px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_html {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1776px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_java {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1792px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_key {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1808px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_left {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1824px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_link {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1840px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_lock {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1856px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_new {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1872px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_next {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1888px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_package {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1904px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_php {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1920px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_prev {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1936px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_refresh {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1952px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_right {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1968px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_script {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -1984px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_security {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2000px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_settings {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2016px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_sound {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2032px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_tag_blue {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2048px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_tag_red {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2064px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_text {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2080px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_text_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2096px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_tick {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2112px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_tree {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2128px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_up {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2144px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_url {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2160px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_user {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2176px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_user_dark {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2192px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_user_light {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2208px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_video {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2224px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.page_wizard {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2240px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.table {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2256px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.table_delete {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2272px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.tables {
+  background: url('../images/mini-sprite.png?1274718135') no-repeat -2288px 0px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
