@@ -5,7 +5,7 @@ This is for working with the sample [compass css] [compass_core_website] project
 
     $ (sudo) gem install compass
     $ git clone http://github.com/zarzax/mini-sprite-sass-mixin.git
-    $ cd silk-sass-mixin
+    $ cd mini-sprite-sass-mixin
     $ compass -w
   
 Open index.html in a web browser.
